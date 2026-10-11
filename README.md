@@ -126,4 +126,14 @@ A plain AVI (Cinepak or Indeo video with PCM audio) or an MPEG-1 system stream (
 
 ## Credits
 
-The TWV format was reverse engineered from the KnightShift executable. The PowerShell version of this tool (`RP-TW-Media-Converter.ps1`) contributed the TWS, WD1, lossless-copy and menu features that this Python version is based on.
+The TWV format was reverse engineered from the KnightShift executable.
+
+This Python version was extended using the PowerShell tool `RP-TW-Media-Converter.ps1`, created by **Animal**. The following features come from it:
+
+- support for TWS audio and Earth 2150 WD1 videos
+- lossless stream copying in both directions
+- repair of truncated TWV files
+- the interactive menu
+- the automatic ffmpeg download
+
+Many thanks to Animal for that work, and for sharing it so it could be built into this project.
